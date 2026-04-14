@@ -1,0 +1,159 @@
+body{
+ background-color:#FFFAFA;
+ font-family:sans-serif ;
+}
+header{
+ background-color:#708090;
+ color:#F8F9FA;
+ text-align:center;
+}
+header nav{
+ background-color:#7B8C9C;
+}
+a:visited{
+ background-color:transparent;
+ color:#F8F9FA;
+ 
+}
+a:hover{
+ background-color:transparent;
+ color:#C0C0C0;
+ text-decoration:underline;
+}
+a.active{
+ background-color:#C0C0C0;
+ color:#F8F9FA;
+ text-decoration:none;
+ border-radius:5px;
+}
+nav ul{
+ display:flex;
+ justify-content:center;
+ list-style:none;
+}
+nav ul li{
+ margin:10px 50px;
+ font-size:20px;
+}
+table{
+ width:100%;
+ margin:40px auto;
+ border-spacing:3;
+ text-align:center;
+}
+th{
+ background:#708090;
+ color:#F8F9FA;
+ height:50px;
+}
+td{
+ background:#C0C0C0;
+ color:;
+ height:40px;
+}
+caption{
+ font:italic bold 25px fantasy;
+}
+form{
+ background:#F2F4F7;
+ width:50%;
+ margin:0 auto;
+ padding:20px;
+ border-radius:15px
+}
+div input,textarea{
+ color:black;
+ background-color:#FFFAFA;
+ border-radius:15px;
+ padding:5px;
+}
+.button input:visited{
+ color:#D3D3D3;
+ backgroun-color:transparent;
+}
+.button input:hover{
+ color:#FDF5E6;
+;
+ background-color:transparent;
+}
+.button input:active{
+ color:#708090;
+ background-color:transparent;
+}
+input[type="submit"],
+input[type="reset"]{
+ background-color:#D3D3D3;
+}
+main{
+ padding:20px;
+ min-height:150px;
+}
+section h2{
+ width:70%;
+ margin:0 auto;
+ text-align:center;
+ font:italic 40px fantasy;
+}
+footer{
+ text-align:center;
+ background-color:#708090;
+ color:#F8F9FA;
+}
+.shadow section h2{
+ text-shadow:10px 8px 2px #D1D9E0;
+}
+main p{
+ text-align:center;
+ font-size:25px;
+ line-height:60px;
+ color:#333;
+}
+ul li a{
+  font-size:20px;
+}
+h1{
+ font-size:40px;
+}
+
+@media(max-width:768px){
+ nav ul{
+  flex-direction:row;
+  flex-wrap:nowrap;
+  justify-content:space-around;
+  gap:5px;
+  align-items:center;
+  padding:0;
+  margin:0;
+ }
+ nav ul li {
+  margin:5px 0;
+ }
+ nav ul li a{
+  font-size:15px 
+ }
+ header{
+  padding:5px 0;
+  height:auto;
+ }
+ form{
+  width:70%;
+  padding:30px;
+  margin:20px;
+ } 
+ main{
+  padding:15px;
+ }
+ main p{
+  font-size:16px;
+  line-height:1.8;
+ }
+ header h1{
+  font-size:25px;
+ }
+ main h2{
+  width:80%;
+  margin:0 auto;
+  text-align:center;
+  font:italic 20px fantasy;
+ }
+}
