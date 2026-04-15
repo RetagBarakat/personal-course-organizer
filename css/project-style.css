@@ -10,10 +10,15 @@ header{
 header nav{
  background-color:#7B8C9C;
 }
+a{
+  background-color:transparent;
+  color:#F8F9FA;
+  text-decoration:none;
+}
 a:visited{
  background-color:transparent;
  color:#F8F9FA;
- 
+ text-decoration:underline;
 }
 a:hover{
  background-color:transparent;
@@ -66,6 +71,7 @@ div input,textarea{
  background-color:#FFFAFA;
  border-radius:15px;
  padding:5px;
+ width:100%;
 }
 .button input:visited{
  color:#D3D3D3;
@@ -73,7 +79,7 @@ div input,textarea{
 }
 .button input:hover{
  color:#FDF5E6;
-;
+
  background-color:transparent;
 }
 .button input:active{
@@ -83,6 +89,7 @@ div input,textarea{
 input[type="submit"],
 input[type="reset"]{
  background-color:#D3D3D3;
+ width:15%;
 }
 main{
  padding:20px;
@@ -136,7 +143,7 @@ h1{
   height:auto;
  }
  form{
-  width:70%;
+  width:80%;
   padding:30px;
   margin:20px;
  } 
