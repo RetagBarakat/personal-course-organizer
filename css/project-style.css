@@ -74,22 +74,21 @@ div input,textarea{
  width:100%;
 }
 .button input:visited{
- color:#D3D3D3;
- backgroun-color:transparent;
+ color:D3D3D3;
+ backgroun-color:C0C0C0;
 }
 .button input:hover{
- color:#FDF5E6;
-
- background-color:transparent;
+ color:black;
+ background-color:#F8F9FA;
 }
 .button input:active{
- color:#708090;
+ color:black;
  background-color:transparent;
 }
 input[type="submit"],
 input[type="reset"]{
  background-color:#D3D3D3;
- width:15%;
+ width:30%;
 }
 main{
  padding:20px;
