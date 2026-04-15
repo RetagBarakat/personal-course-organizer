@@ -90,6 +90,9 @@ input[type="reset"]{
  background-color:#D3D3D3;
  width:30%;
 }
+#credit-hours{
+ width:60%;
+}
 main{
  padding:20px;
  min-height:150px;
